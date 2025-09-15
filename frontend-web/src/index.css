@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional global custom styles */
+body {
+  @apply bg-white text-gray-900; /* dark mode can be handled separately */
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800 font-medium;
+}
